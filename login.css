@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    min-height: 65px;
+}
+
+header div {
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+header div h2 {
+    padding-top: 10px;
+    color: #FE8A00;
+    padding-left: 20px;
+}
+
+header div h2 span {
+    color: #F61B5A;
+}
+
+.head_img2 {
+    padding-left: 1110px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 94%;
+    margin-left: 46px;
+
+    background-color: rgba(0, 0, 0, 0.025);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 63%;
+    height: 66vh;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,
+form .form_des {
+    font-size: 1.2em;
+    color: #110e10;
+    text-align: center;
+}
+
+form h2 {
+    padding-bottom: 15px;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+
+    text-transform: capitalize;
+}
+
+
+
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 600px;
+    border-bottom: 2px solid rgb(33, 32, 32, 0.5);
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    letter-spacing: 0.2px;
+
+    color: #212121;
+
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+
+    letter-spacing: 0.2px;
+
+    color: #212121;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+
+}
+
+
+.l_button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    color: #F61B5A;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: 'Outfit';
+    font-style: normal;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+button:hover,
+button:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.l_button:hover {
+    background-color: rgb(217, 217, 217);
+}
+
+.register {
+    font-size: .9em;
+    color: rgba(255, 0, 0, 0.7);
+    text-align: center;
+    margin: 25px 0 10px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #F61B5A;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.input_des {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+
+    text-align: start;
+    display: flex;
+    letter-spacing: 0.2px;
+
+
+    color: #212121;
+}
+
+.form_des {
+    padding-bottom: 30px;
+    font-family: 'Airbnb Cereal App';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.forget label {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+
+    letter-spacing: 0.2px;
+
+
+    color: #212121;
+}

@@ -1,0 +1,138 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+header{
+    background-color: white;
+    min-height: 65px;
+}
+
+header div{
+    display:flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+.head_img2{
+    padding-left: 1110px;
+}
+header div h2{
+    padding-top: 10px;
+    color: #FE8A00;
+    padding-left: 20px;
+}
+header div h2 span{
+    color:#F61B5A;
+}
+/******************/
+.container{
+    display: flex;
+    padding-left: 80px;
+    column-gap: 190px;
+    background-color:rgb(243, 242, 242);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.p_det{
+    display: block;
+}
+
+
+/*************list*/
+.h1_1,.h1_2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.022em;
+color: #252C32;
+}
+.p1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+color: #6E7C87
+}
+.p2,.p3,.size,.ex_p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+color: #252C32;
+}
+.new{
+    width:50px;
+    height:30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color:rgb(212, 211, 211);
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+ul li{
+    background-color: white;
+    
+border-radius: 6px 0px 0px 6px;
+    display: inline-block;
+    text-align: center;
+opacity: 0.8;
+width:40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: -0.006em;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+ul li a:hover,a:focus{
+    background-color:#E5E9EB;;
+}
+.size_s {
+    display: block;
+   padding: 0;
+   margin: 0;
+}
+button{
+    background-color: white;
+    width:100%;
+    height:35px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: white;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #F61B5A;
+outline: none;
+box-shadow: 0 0 10px rgba(0, 0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+button:hover, button:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+img{
+    border-radius: 4%;
+}

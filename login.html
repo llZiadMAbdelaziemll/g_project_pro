@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="">
+            <img class="head_img" src="logo.svg">
+            <h2>Minimal <span>Shop</span>ping</h2>
+            <img class="head_img2" src="Vector.svg">
+        </div>
+    </header>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="first_p.html" name="form" method="post" >
+                    <h2>Hello Again!</h2>
+                    <!-- login -->
+                    <p class="form_des">Welcome Back You’ve Been Missed!</p>
+                    <p class="input_des">To login enter Your email address and password</p>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input id="username" name="email" type="text" required>
+                        <label for="">username</label>
+                        
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input id="password" name="password" type="password" required>
+                        <label for="">password</label>
+                       
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me</label>
+
+                    </div><br><br>
+                    <button class="l_button" name="button" type="submit" onclick="func()">Log in</button>
+                    <div class="register">
+                        <p>Don't have a account <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="login.js"></script>
+</body>
+
+</html>
