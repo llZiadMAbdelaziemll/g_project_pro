@@ -1,18 +1,22 @@
-var email = document.forms["form"]["email"];
-var pass = document.forms["form"]["password"];
-
-email.addEventListener("textInput", email_ver);
-pass.addEventListener("textInput", pass_ver);
-
-function email_ver() {
-  if (email.value == "ziad53s@gmail.com") {
-    return true;
+var formn=document.getElementById('fromid');
+formn.addEventListener('submit', (event)=>{
+  event.preventDefault();
+  const username=document.getElementById('username').value;
+const password=document.getElementById('password').value;
+fetch('https://dummyjson.com/auth/login', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({username,password})
+})
+.then((res) => {
+  if(res.ok){
+    window.location.href='first_p.html';
   }
-}
-function pass_ver() {
-  if (pass.value == "012345") {
-    return true;
+  else{
+    alert('wrong informations');
   }
-
+})
 }
+)
+
 
