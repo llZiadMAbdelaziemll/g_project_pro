@@ -16,6 +16,9 @@ header div {
     padding-left: 30px;
 
 }
+header a{
+    cursor: pointer;
+}
 
 .head_img2 {
     padding-left: 1110px;
